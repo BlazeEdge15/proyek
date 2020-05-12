@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306678474009",
+    "firebase_url": "https://warehaus-project.firebaseio.com",
+    "project_id": "warehaus-project",
+    "storage_bucket": "warehaus-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306678474009:android:c2670b072fa85280",
+        "android_client_info": {
+          "package_name": "id.ac.umn.warehaus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306678474009-054gus4j92536nqenug1p6e0mdk9vmb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.umn.warehaus",
+            "certificate_hash": "a3b58e25ccf093ff426ba048782cc02d8eccc164"
+          }
+        },
+        {
+          "client_id": "306678474009-qao6mhmhk7rkmhfjjdi72shc6qaa9e1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq9RNHfsJinJ4ZhzfMjpcj16w2LUTHj1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306678474009-qao6mhmhk7rkmhfjjdi72shc6qaa9e1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

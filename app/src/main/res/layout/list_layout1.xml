@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="7dp"
+                android:text="Nissan 370Z"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTitle"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:text="Nissan 370Z tahun keluaran 2014 mesin 3.700cc V6 tenaga 350 Ps" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

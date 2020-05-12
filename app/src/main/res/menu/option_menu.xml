@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/History"
+        android:title="History"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/newShipment"
+        android:title="New Shipment"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/newItem"
+        android:title="New Item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+
+</menu>
