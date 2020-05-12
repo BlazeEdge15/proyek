@@ -3,6 +3,7 @@ package id.ac.umn.warehaus;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,6 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 //import com.google.firebase.storage.FirebaseStorage;
 //import com.google.firebase.storage.StorageReference;
 
+import java.io.File;
 import java.util.UUID;
 
 public class AddInventoryActivity extends AppCompatActivity {
@@ -110,6 +112,13 @@ public class AddInventoryActivity extends AppCompatActivity {
         if(takePictureIntent.resolveActivity(getPackageManager()) != null){
             startActivityForResult(takePictureIntent, 567);
             Log.d("CAMERA", "TEST1");
+
+
+//            File imagesFolder = new File(Environment.getExternalStorageDirectory(), "MyImages");
+//            imagesFolder.mkdirs();
+//            File image = new File(imagesFolder, "image.jpg");
+//            Uri uriSavedImage = Uri.fromFile(image);
+//            TakePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, uriSavedImage);
         }
     }
 
